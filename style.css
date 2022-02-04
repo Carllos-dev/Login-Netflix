@@ -1,0 +1,360 @@
+
+html {
+    position: relative;
+    min-height: 100%;
+}    
+
+body {
+    margin: 0 auto;
+}
+
+
+input, ul, li, a {
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+    color: #B3B3B3;
+}
+ 
+.backg {
+    max-width: 100%;
+    min-height: 100vh;
+    position: relative;
+    display: block;
+    z-index: -1;
+    height: 150vh;
+    filter: brightness(50%);
+}
+
+
+.conteiner {
+    z-index: 0;
+    position: absolute;
+    background-size: contain;
+}
+
+.logo {
+    position: relative;
+    bottom: 10px;
+    left: -5px;
+    fill: red;
+}
+
+header {
+    position: relative;
+    width: 100vh;
+    top: 0%;
+    left: 0%;
+    margin-top: -992px;
+    border: 1px solid black;
+    padding: 40px;
+    height: 90px;
+    z-index: 2;
+    background-color: grey;
+    border: none;
+    background: linear-gradient(to bottom, rgba(0,0,0,.5) 0,rgba(0,0,0,0)100%);
+}
+
+
+.entrada1 {
+    position: relative;
+    background-color: rgba(0,0,0,.75);
+    border: 1px solid black;
+    border-radius: 1%;
+    border: none;
+    display: block;
+    place-items: center;
+    overflow: hidden;
+    z-index: 1;
+    margin: 0px 0px 90px;
+    top: 77px;
+    left: 32%;
+    right: auto;
+    width: 320px;
+    height: 495px;
+    padding: 61px 61px 47px;
+    text-align: center;
+}
+
+
+h1 {
+    font-size: 32px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0px 0px 28px;
+    color: white;
+    position: relative;
+    margin-left: 5px;
+    text-align: left;
+}
+
+
+footer {
+    display: block;
+    background: rgba(0,0,0,.75);
+    color: #757575;
+    border: 1px solid black;
+    z-index: 1;
+    position: relative;
+    bottom: -8.3vh;
+    height: 180px;
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+    padding-bottom: 60px;
+    text-align: justify;
+}
+
+.num0:hover {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+ul {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+p { 
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 150px;
+}
+
+
+
+
+.li1 {
+    padding: 0;
+    margin-left: 150px;
+}
+.li11 {
+    cursor: pointer;
+    margin-top: 30.5px;
+    padding: 0;
+    margin-left: -318.5px;
+}
+.li11:hover {
+    margin-top: 30.5px;
+    padding: 0;
+    margin-left: -318.5px;
+    text-decoration: underline;
+}
+.li1:hover {
+    cursor: pointer;
+    padding: 0;
+    margin-left: 150px;
+    text-decoration: underline;
+}
+
+
+
+.li2 {
+    padding: 0;
+    margin-left: -125px;
+}
+.li2:hover {
+    cursor:pointer;
+    text-decoration: underline;
+    padding: 0;
+    margin-left: -125px;
+}
+.li22 {
+    padding: 0;
+    margin-left: -285px;
+    margin-top: 30.5px;
+}
+.li22:hover {
+    padding: 0;
+    margin-left: -285px;
+    margin-top: 30.5px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+
+.li3 {
+    padding: 0;
+    margin-left: -50px;
+}
+.li3:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 0;
+    margin-left: -50px;
+}
+
+
+
+.li4 {
+    padding: 0;
+    margin-right: 300px;
+}
+.li4:hover {
+    text-decoration: underline;
+    cursor: pointer;
+    padding: 0;
+    margin-right: 300px;
+}
+
+select {
+    text-indent: 0;
+    position: relative;
+    bottom: 25px; 
+    margin-left: 150px;
+    padding-right: 26px;
+    padding-left: 50px;
+    line-height: 1.7;
+    background-color: #000;
+    color: #757575;
+    padding: 15px;
+    border: 1px solid #333;
+}
+
+
+.nome_email {
+    background-color: #333333;
+    border-radius: 4px;
+    border: none;
+    width: 271px;
+    height: 35px;
+    padding: 10px 20px 10px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8C8C8C;
+    border-bottom: none;
+    border-right: none;
+    line-height: 50px;
+}
+
+.senha {
+    border-radius: 4px;
+    border: none;
+    background-color: #333333;
+    width: 271.5px;
+    height: 35px;
+    padding: 10px 20px 10px;
+    border-radius: 4px;
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8C8C8C;
+    border-bottom: none;
+    border-right: none;
+    line-height: 50px;
+}
+
+button {
+    background-color: #E50914;
+    border-radius: 4px;
+    border: none;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: bold;
+    width: 312.5px;
+    height: 48px;
+    cursor: pointer;
+    position: relative;
+    top: 20px;
+}
+
+
+.lembrar {
+    color: #B3B3B3;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+    text-align: left;
+    left: -55px;
+    top: 28px;
+}
+.lembrar0 {
+    position: relative;
+    left: -40px;
+    width: 40px;
+    top: 30px;
+}
+
+
+.ajuda {
+    position: relative;
+    top: 28px;
+    right: -25px;
+    cursor: pointer;
+    font-size: 13px;
+}
+.ajuda:hover {
+    position: relative;
+    top: 28px;
+    right: -25px;
+    cursor: pointer;
+    font-size: 13px;
+    text-decoration: underline;
+}
+
+.assinar {
+    position: relative;
+    text-align: left;
+    top: 60px;
+    left: 5px;
+}
+.assine { 
+    position: relative;
+    color: #757575;
+    right: 150px;
+    text-align: justify;
+
+}
+.assine0 {
+    position: relative;
+    color: #FFFFFF;
+    text-align: justify;
+    vertical-align: middle;
+    right: -100px;
+    margin-left: -100px;
+}
+.assine0:hover {
+    color: #FFFFFF;
+    text-decoration: underline;
+    text-align: justify;
+}
+
+.face {
+    color: #737373;
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+    vertical-align: middle;
+    position: relative;
+    font-size: 13px;
+    margin-left: -130px;
+    top: 65px;
+}
+
+.captcha0 {
+    padding-bottom: 20px;
+    height: 60px;
+    width: 448px;
+    position: relative;
+    right: 10px;
+    padding-top: 0;
+    margin-top: -10px;
+    text-align: justify;
+    margin-left: -140px;
+}
+.captcha1 {
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #8C8C8C;
+    top: -3px
+}
+.captcha2 {
+    color: blue;
+}
+
